@@ -1,0 +1,3 @@
+# Simple Information Retrieval
+
+ I present the implementation and evaluation of a simple Information Retrieval (IR) system using three different retrieval models which are Vector Space Model (VSM), BM25, and a Language Model (LM), specifically Relevance Model. The system indexes the Cranfield collection, which is a small set of 1,400 abstracts of scientific papers and performs queries over it thus generating ranked lists of documents. The system is then evaluated using the TREC evaluation program (trec_eval). The performance of each of the implemented models is then compared based on metrics such as Mean Average Precision (MAP), Precision at 5 (P@5), and Normalized Discounted Cumulative Gain (NDCG). 
